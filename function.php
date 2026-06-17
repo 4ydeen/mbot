@@ -1514,7 +1514,7 @@ function activecron()
         "*/1 * * * * curl https://$domainhosts/cronbot/activeconfig.php",
         "*/1 * * * * curl https://$domainhosts/cronbot/disableconfig.php",
         "*/1 * * * * curl https://$domainhosts/cronbot/iranpay1.php",
-        "0 */5 * * * curl https://$domainhosts/cronbot/backupbot.php",
+        "0 */15 * * * * curl https://$domainhosts/cronbot/backupbot.php",
         "*/2 * * * * curl https://$domainhosts/cronbot/gift.php",
         "*/30 * * * * curl https://$domainhosts/cronbot/expireagent.php",
         "*/15 * * * * curl https://$domainhosts/cronbot/on_hold.php",
